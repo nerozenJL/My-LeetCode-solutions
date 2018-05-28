@@ -1,3 +1,8 @@
+
+//一些出错的边界条件
+//一些判定条件在循环结束的时候没有清算
+//null和空对象不同，返回空对象
+
 class Solution {
     public List<List<Integer>> largeGroupPositions(String S) {
         List<List<Integer>> res = new ArrayList();
